@@ -28,3 +28,39 @@ console.log("External JS")
  
  console.log(checkEmail("salman@iub.com"));
  console.log(checkEmail("salman.com"));
+ 
+ 
+ 
+ //task 4
+ 
+ var library = [ 
+ {
+ author: 'Bill Gates',
+ title: 'The Road Ahead',
+ readingStatus: true
+ },
+ {
+ author: 'Steve Jobs',
+ title: 'Walter Isaacson',
+ readingStatus: true
+ },
+ {
+ author: 'Suzanne Collins',
+ title:  'Mockingjay: The Final Book of The Hunger Games', 
+ readingStatus: false
+ git }];
+
+
+ 
+ 
+ function getReadingStatus(index)
+ {
+     return library[index].readingStatus;
+     
+     
+ }
+ console.log(getReadingStatus(1));
+ 
+ 
+ 
+ 
